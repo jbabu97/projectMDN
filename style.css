@@ -113,3 +113,32 @@ nav ul li a:hover {
     padding: 6px 10px;
     background-color: #858585;
 }
+
+.bread_crumb {
+    background-color: #343434;
+    display: flex;
+    padding: 6px 20px;
+    border-bottom: 1px solid #858585;
+}
+
+.bread_crumb a {
+    color: #CDCDCD;
+}
+
+.left {
+    width: 70%;
+}
+.left a {
+    margin-left: 10px;
+}
+.left i {
+    margin: 0px 6px;
+    font-size: 10px;
+}
+
+.right {
+    width: 30%;
+    text-align: right;
+}
+.right a {
+}
