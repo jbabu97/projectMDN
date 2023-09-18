@@ -1,0 +1,20 @@
+*body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+.top_head {
+}
+.top_head p {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    background-color: #343434;
+}
+.top_head p a {
+    color: #A687FF;
+}
