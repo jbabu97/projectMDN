@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProjectMDN</title>
+
     <link rel="stylesheet" href="style.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200;400;700&display=swap" rel="stylesheet">
+    <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 </head>
 <body>
@@ -17,23 +23,26 @@
         <!-- main header section -->
         <section class="main_header">
             <div class="logo">
-                <img src="photo/logo.png" alt="logo">
+                <a href="#"><img src="photo/logo.png" alt="logo"></a>
             </div>
             <nav>
-                <li><a href="#">References</a></li>
-                <li><a href="#">Gudes</a></li>
-                <li><a href="#">Plus</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Play</a></li>
-                <li><a href="#">AI Help <sup>Beta</sup></a></li>
+                <ul>
+                    <li><a href="#">References</a></li>
+                    <li><a href="#">Gudes</a></li>
+                    <li><a href="#">Plus</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Play</a></li>
+                    <li><a href="#">AI Help <sup><small><span class="beta">BETA</span></small></sup></a></li>
+                </ul>
             </nav>
 
             <!--start breadCrumb section -->
             <section class="action_btns">
-                <button><i class="fa-solid fa-circle-half-stroke"></i>theme</button>
+                <a href="#"><i class="fa-solid fa-circle-half-stroke"></i>theme</a>
                 <input type="text" name="" id="">
-                <button>Log in</button>
-                <button>Sign up for free</button>
+                <span class="search"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></span>
+                <a href="#">Log in</a>
+                <span class="signup"><a href="#">Sign up for free</a></span>
             </section>
         </section>
     </header>
@@ -62,7 +71,7 @@
             </ul>
         </nav>
     </aside>
-
+    <!--main section -->
     <main>
         <section>
             <h1>Getting started with HTML</h1>
