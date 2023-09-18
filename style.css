@@ -142,3 +142,9 @@ nav ul li a:hover {
 }
 .right a {
 }
+
+/* main body */
+main{
+    display: flex;
+    padding: 20px;
+}
