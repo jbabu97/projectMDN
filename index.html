@@ -25,7 +25,7 @@
             <div class="logo">
                 <a href="#"><img src="photo/logo.png" alt="logo"></a>
             </div>
-            <nav>
+            <nav class="header_nav">
                 <ul>
                     <li><a href="#">References</a></li>
                     <li><a href="#">Gudes</a></li>
@@ -65,27 +65,30 @@
     <!-- main section -->
     <main>
         <!--Left Side bar -->
-        <aside>
-            <button>Filter</button>
-            <nav>
+        <aside class="left_aside">
+            <div class="filter">
+                <i class="fa-solid fa-filter"></i>
+                <input type="text" value="Filter">
+            </div>
+            <nav class="left_nav">
                 <ul>
+                    <li>
+                        <a class="start" href="#">Complete beginners start here!</a>
+                    </li>
+                    <li><a href="#"><i class="fa-solid fa-play"></i>Getting started with the web</a></li>
                     <li><a href="#">
-                        <h3>Complete beginners start here!</h3>
+                        <h3>HTML — Structuring the web</h3>
                     </a></li>
-                    <li><a href="#">Getting started with the web</a></li>
+                    <li><a href="#"><i class="fa-solid fa-play"></i>Introduction to HTML</a></li>
+                    <li><a href="#"><i class="fa-solid fa-play"></i>Multimedia and embedding</a></li>
+                    <li><a href="#"><i class="fa-solid fa-play"></i>HTML tables</a></li>
                     <li><a href="#">
-                        <h2>HTML — Structuring the web</h2>
+                        <h3>CSS — Styling the web</h3>
                     </a></li>
-                    <li><a href="#">Introduction to HTML</a></li>
-                    <li><a href="#">Multimedia and embedding</a></li>
-                    <li><a href="#">HTML tables</a></li>
-                    <li><a href="#">
-                        <h2>CSS — Styling the web</h2>
-                    </a></li>
-                    <li><a href="#">CSS first steps</a></li>
-                    <li><a href="#">CSS building blocks</a></li>
-                    <li><a href="#">Styling text</a></li>
-                    <li><a href="#">CSS layout</a></li>
+                    <li><a href="#"><i class="fa-solid fa-play"></i>CSS first steps</a></li>
+                    <li><a href="#"><i class="fa-solid fa-play"></i>CSS building blocks</a></li>
+                    <li><a href="#"><i class="fa-solid fa-play"></i>Styling text</a></li>
+                    <li><a href="#"><i class="fa-solid fa-play"></i>CSS layout</a></li>
                 </ul>
             </nav>
         </aside>
@@ -104,9 +107,10 @@
         </div>
         
         <!-- Right Side bar -->
-        <aside>
+        <aside class="right_aside">
             <h2>In this article</h2>
-            <ul>
+            <nav class="right_nav">
+                <ul>
                 <li><a href="#">What is HTML</a></li>
                 <li><a href="#">Anatomy of an HTML element</a></li>
                 <li><a href="#">Attributes</a></li>
@@ -116,30 +120,77 @@
                 <li><a href="#">Summary</a></li>
                 <li><a href="#">See also</a></li>
             </ul>
+            </nav>
         </aside>
     </main>
 
     <footer>
         <section class="top_footer">
-            <div class="social"></div>
-            <div class="main_header"></div>
-            <div class="community"></div>
-            <div class="developer"></div>
+            <div class="social">
+                <div>
+                    <img src="photo/mdnLogo.png" alt="">
+                </div>
+                <h4>Your blueprint for a better internet.</h4>
+                <div class="icon">
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-rss"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mdn">
+                <h3>MDN</h3>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Advertise with us</a></li>
+                </ul>
+            </div>
+            <div class="support">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="">Product Help</a></li>
+                    <li><a href="">Report an issue</a></li>
+                </ul>
+            </div>
+            <div class="community">
+                <h3>Our communities</h3>
+                <ul>
+                    <li><a href="">MDN Community</a></li>
+                    <li><a href="">MDN Forum</a></li>
+                    <li><a href="">MDN Chat</a></li>
+                </ul>
+            </div>
+            <div class="developer">
+                <h3>Developers</h3>
+                <ul>
+                    <li><a href="">Web Technologies</a></li>
+                    <li><a href="">Learn Web Development</a></li>
+                    <li><a href="">MDN Plus</a></li>
+                    <li><a href="">Hacks Blog</a></li>
+                </ul>
+            </div>
         </section>
         <section class="bottom_footer">
             <div class="policy">
-                <div class="logo"></div>
-                <div class="pol">
+                <div class="logo">
+                    <img src="photo/footerLogoi.png" alt="">
+                </div>
+                <div class="poli">
                     <ul>
+                       <small>
                         <li><a href="#">Website Privacy Notice</a></li>
                         <li><a href="#">Cookies</a></li>
                         <li><a href="#">Legal</a></li>
                         <li><a href="#">Community Participation Guidelines</a></li>
+                       </small>
                     </ul>
                 </div>
             </div>
             <div class="copyright">
-                <p>Visit Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation.</p>
+                <p>Visit <a href="">Mozilla Corporation’s</a> not-for-profit parent, the <a href="">Mozilla Foundation</a>.</p>
                <p> <small>Portions of this content are &copy; 1998–2023 by individual mozilla.org contributors. Content available under a Creative Commons license.</small></p>
             </div>
         </section>

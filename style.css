@@ -12,8 +12,7 @@ a {
     text-decoration: none;
 }
 
-.top_head {
-}
+/* topn head */
 .top_head p {
     text-align: center;
     padding: 20px;
@@ -39,23 +38,20 @@ a {
     margin-left: 20px;
 }
 
-nav {
+.header_nav {
     width: 60%;
     height: 70px;
 }
 
-nav ul {
-}
-
-nav ul li {
+.header_nav ul li {
     display: inline;
 }
-nav ul li a {
+.header_nav ul li a {
     color: #CDCDCD;
     padding: 15px;
     line-height: 65px;
 }
-nav ul li a:hover {
+.header_nav ul li a:hover {
     color: #F3707F;
     background-color: #461E25;
     border-radius: 5px;
@@ -114,6 +110,8 @@ nav ul li a:hover {
     background-color: #858585;
 }
 
+/* bread crumb */
+
 .bread_crumb {
     background-color: #343434;
     display: flex;
@@ -140,11 +138,155 @@ nav ul li a:hover {
     width: 30%;
     text-align: right;
 }
-.right a {
-}
 
 /* main body */
 main{
+    height: 1000px;
     display: flex;
     padding: 20px;
+}
+
+/* Left Aside */
+
+.left_aside {
+    width: 23%;
+    border-right: #858585 solid 8px;
+}
+.filter input {
+    padding: 10px;
+    border: 1px solid #858585;
+    border-radius: 18px;
+    background: transparent;
+    width: 80px;
+    color: #858585;
+    text-align: right;
+}
+.filter {
+    position: relative;
+}
+.filter i {
+    color: #858585;
+    position: absolute;
+    left: 18px;
+    top: 10px;
+}
+
+.left_aside .left_nav {
+    margin-top: 40px;
+}
+
+.left_nav li, .right_nav li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+.left_nav a, .right_nav a {
+    color: #858585;
+}
+.left_nav i {
+    margin-right: 4px;
+    font-size: 10px;
+}
+
+.left_nav .start {
+    text-decoration: underline;
+}
+.left_nav .start:hover {
+    text-decoration: none;
+}
+.main_section {
+    width: 53%;
+}
+
+.right_aside {
+    width: 20%;
+    background-color: #fff;
+}
+
+/* Starts footer */
+
+footer {
+    height: 400px;
+    color: #CDCDCD;
+    background-color: #343434;
+}
+
+footer a {
+    color: #CDCDCD;
+}
+
+footer li {
+    list-style: none;
+}
+.top_footer {
+    display: flex;
+    border-bottom: 1px solid #858585;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.top_footer li {
+    margin-top: 15px;
+}
+.social {
+    width: 35%;
+    padding-left: 20px;
+}
+
+.icon {
+    margin-top: 40px;
+}
+
+.icon li {
+    display: inline;
+}
+.icon li a {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.mdn {
+    width: 16%;
+}
+.support {
+    width: 16%;
+}
+.community {
+    width: 16%;
+}
+.developer {
+    width: 17%;
+}
+
+.policy {
+    display: flex;
+}
+
+.policy .logo {
+    margin-top: 24px;
+}
+
+.poli {
+    margin-top: 30px;
+}
+
+.poli li {
+    display: inline;
+    margin-right: 15px;
+}
+.poli li a {
+    text-decoration: underline;;
+}
+.poli li a:hover {
+    text-decoration: none;;
+}
+
+.copyright {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.copyright a {
+    text-decoration: underline;
+}
+.copyright a:hover {
+    text-decoration: none;
 }
