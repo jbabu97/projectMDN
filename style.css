@@ -220,6 +220,13 @@ main{
     margin-top: 40px;
     margin-bottom: 25px;
 }
+.anatomy {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.anatomy li {
+    margin-bottom: 10px;
+}
 
 /* Right Aside */
 .right_aside {
