@@ -12,7 +12,7 @@ a {
     text-decoration: none;
 }
 
-/* topn head */
+/* top head */
 .top_head p {
     text-align: center;
     padding: 20px;
@@ -20,6 +20,12 @@ a {
 }
 .top_head p a {
     color: #A687FF;
+}
+/* try for Sticky head */
+.bottom_head {
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 /* main head */
@@ -144,13 +150,18 @@ main{
     height: 1000px;
     display: flex;
     padding: 20px;
+    position: relative;
 }
 
 /* Left Aside */
 
 .left_aside {
     width: 23%;
-    border-right: #858585 solid 8px;
+    position: sticky;
+    top: 120px;
+    left: 0;
+    height: 400px;
+    overflow: auto;
 }
 .filter input {
     padding: 10px;
@@ -230,7 +241,11 @@ main{
 
 /* Right Aside */
 .right_aside {
+    height: 400px;
     width: 23%;
+    position: sticky;
+    top: 118px;
+    right: 0;
 }
 
 .right_nav {
